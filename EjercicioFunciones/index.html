@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="calculadora">
+        <span>
+            <div class="txtBox">
+                <label for="txtNum1">Número 1:<br /> </label>
+                <input type="number" id="txtNum1" value="0" placeholder="Número" />
+            </div>
+
+            <div class="divOperador" id="operador"></div>
+
+            <div class="txtBox">
+                <label for="txtNum2">Número 2: <br /></label>
+                <input type="number" id="txtNum2" value="0" placeholder="Número" />
+            </div>
+
+            <div class="divOperador" id="igual"></div>
+
+            <div class="txtBox">
+                <input type="number" id="txtResul" />
+            </div>
+        </span>
+        <span id="cajaBotones">
+            <div>
+                <input type="button" id="buttPlus" class="buttOperador" value="+" />
+                <input type="button" id="buttLess" class="buttOperador" value="-" />
+
+            </div>
+
+            <div>
+                <input type="button" id="buttMult" class="buttOperador" value="*" />
+                <input type="button" id="buttDiv" class="buttOperador" value="/" />
+            </div>
+        </span>
+
+        
+    </div>
+    
+    <script src="calculadoraJS.js"></script>
+</body>
+</html>
